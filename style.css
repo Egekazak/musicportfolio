@@ -1,0 +1,211 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #000 url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+      color: #f0f0f0;
+      font-family: 'Trebuchet MS', sans-serif;
+      padding: 2rem;
+      background-attachment: fixed;
+      cursor: url('assets/images/default_arrow.cur'), auto;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: underline;
+      cursor: url('assets/images/default_link.cur'), pointer;
+    }
+
+    a:hover {
+      color: #ffffff;
+      cursor: url('assets/images/default_link.cur'), pointer;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      border: 3px ridge #ff00ff;
+      padding: 2rem;
+      background: linear-gradient(135deg, #1e1e2e 0%, #0d0d1a 100%);
+      box-shadow: 0 0 25px #00ffff;
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-family: 'Arial Black', sans-serif;
+      color: #00ffff;
+      text-align: center;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px #ff00ff;
+      letter-spacing: 2px;
+      background: linear-gradient(to right, #4a4a60, #2e2e40);
+      border: 2px outset #444;
+      padding: 0.5rem;
+      border-radius: 8px;
+      box-shadow: inset 0 0 5px #000;
+    }
+
+    .subtitle {
+      font-family: 'Arial Black', sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+      color: #bbb;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-family: 'Arial Black', sans-serif;
+      margin-top: 2rem;
+      background: linear-gradient(to right, #2e2e5a, #1b1b3a);
+      color: #e0e0ff;
+      border-bottom: 2px dotted #66ffff;
+      padding: 0.4rem 1rem;
+      border-radius: 6px;
+      box-shadow: inset 0 0 3px #000;
+      text-transform: uppercase;
+      text-shadow: 1px 1px #000;
+    }
+
+    .marquee {
+      background-color: #111;
+      border: 2px dashed #ff00ff;
+      padding: 0.5rem;
+      margin-bottom: 1.5rem;
+      color: #fff;
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: 'Courier New', monospace;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+    }
+
+    marquee {
+      color: #ffccff;
+    }
+
+    .highlight {
+      background: linear-gradient(to bottom, #502f66, #331e47);
+      color: #e6cfff;
+      padding: 0.75rem;
+      margin-top: 1rem;
+      text-align: center;
+      border: 2px inset #660099;
+      font-weight: bold;
+      box-shadow: inset 0 0 10px #330066;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+    }
+
+    .highlight img {
+      margin-right: 10px;
+    }
+
+    .media-player {
+      background: linear-gradient(to bottom, #3c3f4a, #2a2d38);
+      border: 2px outset #555;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: inset 0 0 4px #000, 0 0 6px #000;
+      margin-top: 1rem;
+    }
+
+    .media-player h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      color: #ddd;
+      background: #2a2a3a;
+      padding: 4px 8px;
+      border-radius: 4px;
+      box-shadow: inset 0 0 2px #555;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 0.5rem;
+      border-radius: 4px;
+      background: #222;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #aaaadd;
+      text-shadow: 1px 1px #000;
+      background: linear-gradient(to right, #1e1e30, #2c2c44);
+      border: 2px inset #555;
+      padding: 0.75rem;
+      border-radius: 6px;
+      box-shadow: inset 0 0 6px #111;
+    }
+
+    .cdgif {
+      height: 12px;
+      width: auto;
+      margin-top: 10px;
+    }
+
+    .note {
+      margin-top: 10px;
+      padding: 0.75rem;
+      background: #1e1e2e;
+      border: 2px inset #444;
+      border-radius: 8px;
+      color: #ccc;
+      box-shadow: inset 0 0 6px #111;
+    }
+
+    .note p {
+      margin-top: 5px;
+    }
+
+    .note summary {
+      cursor: pointer;
+      font-weight: bold;
+      color: #66ccff;
+      cursor: url('assets/images/default_link.cur'), pointer;
+    }
+
+    .h2-link {
+      color: #bb99dd;
+    }
+
+    .h2-link:hover {
+      color: #ff00ff;
+    }
+
+    .window {
+      border: 2px solid #999;
+      background: black;
+      box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #666;
+      margin-bottom: 1rem;
+    }
+
+    .window p {
+      margin: 5px;
+    }
+
+    .title-bar {
+      background: linear-gradient(to bottom, #000080, #000060);
+      color: white;
+      padding: 4px 8px;
+      font-weight: bold;
+      font-family: 'Verdana', sans-serif;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+      align-items: center;
+    }
+
+    .title-bar img {
+      height: 14px;
+      width: auto;
+      margin-right: 5px;
+    }
